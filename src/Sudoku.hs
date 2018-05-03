@@ -1,10 +1,8 @@
 {-# LANGUAGE TemplateHaskell #-}
-{-|Student: Chris Tran
-   ID: 15800120
-   Assignment: Sudoku solver
-   Date of submission: 11/01/2018 |-}
 module Sudoku where
-
+{-| Haskell Sudoku
+    Author: Jim
+    Modifier: Chris Tran|-}
 import Data.Char (digitToInt, isDigit)
 import Data.Maybe (fromJust, isJust, isNothing, listToMaybe)
 import Data.List (transpose, group, sort, elemIndex, nub, findIndex)
